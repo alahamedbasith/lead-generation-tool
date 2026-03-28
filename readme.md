@@ -2,7 +2,7 @@
 
 A Python-based lead generation pipeline that searches for professionals across various social platforms, scrapes their profile information, and uses AI to intelligently extract contact details like names, emails, and phone numbers.
 
-> **Note:** This is a minimal MVP for one of our products. For a complete and customized product, contact [@ahamed_innovations](https://instagram.com/ahamed_innovations) on Instagram or visit [www.ahamedbasith.com](https://www.ahamedbasith.com). We will build complete solutions for you end-to-end.
+> **Note:** This is a minimal MVP for one of our tools. For a complete and customized tool and services, contact [@ahamed_innovations](https://instagram.com/ahamed_innovations) on Instagram or visit [www.ahamedbasith.com](https://www.ahamedbasith.com). We will build complete solutions for you end-to-end.
 
 ## Features
 
