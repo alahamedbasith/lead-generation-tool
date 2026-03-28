@@ -9,8 +9,7 @@ def search_links(query):
             "engine": "google",
             "q": query,
             "start": page * 10,
-            "api_key": SERP_API_KEY,
-            "tbs": "qdr:w"  # latest results (last week)
+            "api_key": SERP_API_KEY
         }
 
         results = GoogleSearch(params).get_dict()

@@ -2,5 +2,5 @@ aiohttp
 beautifulsoup4
 pandas
 python-dotenv
-google-generativeai
+google-genai
 google-search-results

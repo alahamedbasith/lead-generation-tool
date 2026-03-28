@@ -1,4 +1,4 @@
-def build_query(profession, location=None):
+def build_queries(profession, location=None):
     platforms = [
         "linkedin.com",
         "facebook.com",
