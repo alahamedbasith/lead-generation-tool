@@ -41,8 +41,8 @@ def run_pipeline(profession, location=None):
         ai = ai_batch_results.get(url, {})
 
         lead = {
-            "name": ai.get("name"),
-            "company": ai.get("company"),
+            "name": ai.get("name") or "",
+            "company": ai.get("company") or "",
             "url": url,
             "email": ai.get("email") or (emails[0].strip() if emails else ""),
             "phone": ai.get("phone") or (phones[0].strip() if phones else "")
@@ -57,4 +57,4 @@ def run_pipeline(profession, location=None):
 
     save(results)
 
-    print("✅ Done! Check output/leads.csv")
+    print("✅ Done! Check outputs/leads.csv")
